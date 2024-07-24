@@ -1,2 +1,2 @@
 # homepage
-Odin Project Advanced HTML &amp; CSS Final Project
+Odin Project Advanced HTML &amp; CSS Course Final Project
