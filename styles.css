@@ -1,14 +1,29 @@
-header {
-    padding: 10%;
+:root {
+    --main-bg-color: #BAC8E1
+}
+
+header, section, footer {
     border: 1px solid black;
+    max-width: auto;
+}
+
+header {
+    padding: 0%;
+    margin-bottom: 3%;
+}
+
+.diagonal-slash {
+    background-color: var(--main-bg-color);
+    /* display:inline-block; */
+    border-top: 3in solid red;
+    border-right: 10in solid white;
+    max-width: auto;
 }
 
 section {
     padding: 20%;
-    border: 1px solid black;
 }
 
 footer {
     padding: 10%;
-    border: 1px solid black; 
 }
