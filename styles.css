@@ -1,8 +1,8 @@
 .background {
-    border-top: 550px solid rgb(37, 99, 158);
+    border-top: 450px solid rgb(37, 99, 158);
     border-right: 5000px solid white;
     position: absolute;
-    max-height: 500px;
+    max-height: 200px;
     z-index: -1;
 }
 
