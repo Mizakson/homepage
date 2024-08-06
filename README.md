@@ -4,7 +4,7 @@ Odin Project Advanced HTML &amp; CSS Course Final Project
 
 
 
-# Image Credits:
+__Image Credits__
 
 header, footer & project images --       (https://commons.wikimedia.org/wiki/)
 
