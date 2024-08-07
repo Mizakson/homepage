@@ -1,17 +1,26 @@
-.background {
-    border-top: 350px solid rgb(37, 99, 158);
-    border-right: 5000px solid white;
-    position: absolute;
-    max-height: 200px;
-    z-index: -1;
+header {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(175deg, palevioletred, palevioletred 50%, white 50%, white);
 }
 
 .profile {
-    z-index: 1;
+    display: flex;
 }
 
-.header-image {
-    /* transform: scale(); */
-    padding-top: 2.5%;
-    padding-left: 10%;
+.profile-image {
+    background-image: url(./assets/header-footer/_Bonshommes__-_Huile_sur_toile_-_N°1142_-_Yannis_GAÏTIS.jpg);
+    background-position: center;
+    height: 369px;
+    width: 446px;
+    text-align: center;
+}
+
+.profile-name {
+    color: white;
+    font-size: 2rem;
+    padding-top: 65%;
 }
