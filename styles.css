@@ -85,3 +85,18 @@ section {
     margin-left: 7.5%;
     padding-bottom: .5%;
 }
+
+.project {
+    height: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-display {
+    padding-left: 7.5%;
+    display: grid;
+    gap: 7.5%;
+    grid-template-columns: repeat(3, 400px);
+    padding-bottom: 5%;
+}
