@@ -88,9 +88,9 @@ section {
 
 .project {
     height: 350px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
+    box-shadow: 0.1em 0.1em .5em gray;
 }
 
 .projects-display {
