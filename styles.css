@@ -85,36 +85,3 @@ section {
     margin-left: 7.5%;
     padding-bottom: .5%;
 }
-
-.projects-display {
-    margin-left: 7.5%;
-    display: grid;
-    gap: 5%;
-    grid-template-rows: repeat(2, minmax(100px, 350px));
-    grid-template-columns: repeat(3, minmax(100px, 450px));
-}
-
-.project {
-    padding: 5%;
-    box-shadow: 0.1em 0.1em .5em gray;
-    display: flex;
-    flex-direction: column;
-}
-
-.top, .project-icons {
-    display: flex;
-}
-
-.top {
-    gap: 10px;
-    padding-left: 5%;
-}
-
-.project-icons {
-    padding-left: 25%;
-    gap: 5px;
-}
-
-.bottom {
-    padding-left: 5%;
-}
