@@ -95,8 +95,8 @@ section {
 }
 
 .project {
-    border: 1px solid black;
     padding: 5%;
+    box-shadow: 0.1em 0.1em .5em gray;
 }
 
 .top, .project-icons {
