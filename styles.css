@@ -76,6 +76,7 @@ header {
     width: 35px;
 }
 
-.my-work {
+#my-work {
     font-size: 1.5rem;
+    margin-left: 7.5%;
 }
