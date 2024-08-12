@@ -151,3 +151,9 @@ section {
     height: 25px;
     width: 25px;
 }
+
+.project-description {
+    font-size: .85rem;
+    color: gray;
+    padding-left: 7.5%;
+}
