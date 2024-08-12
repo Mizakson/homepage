@@ -97,6 +97,6 @@ section {
     padding-left: 7.5%;
     display: grid;
     gap: 7.5%;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 412px);
     padding-bottom: 5%;
 }
