@@ -51,7 +51,7 @@ header {
     margin-top: 4%;
 }
 
-.about-title {
+.title {
     font-size: 2rem;
     padding-bottom: 2.5%;
 }
@@ -74,4 +74,8 @@ header {
     padding: .5%;
     height: 35px;
     width: 35px;
+}
+
+.my-work {
+    font-size: 1.5rem;
 }
