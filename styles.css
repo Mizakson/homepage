@@ -100,3 +100,32 @@ section {
     grid-template-columns: repeat(3, 412px);
     padding-bottom: 5%;
 }
+
+.top {
+    height: 65%;
+    background-position: center;
+}
+
+#proj-1 > .top {
+    background-image: url("./assets/projects/\'Venice_from_the_Bacino_di_San_Marco\'\,_oil_on_canvas_painting_by_Francesco_Guardi.jpg");
+}
+
+#proj-2 > .top {
+    background-image: url("./assets/projects/Behold!_The_Lamb_of_God\,_by_Henry_Ossawa_Tanner.webp.png");
+}
+
+#proj-3 > .top {
+    background-image: url("./assets/projects/Carlo_Bonavia\'s_oil_painting_\'Storm_off_Rocky_Coast\'.jpg");
+}
+
+#proj-4 > .top {
+    background-image: url("./assets/projects/Charles_Blomfield\,_Mechanics_Bay_Painting.jpg");
+}
+
+#proj-5 > .top {
+    background-image: url("./assets/projects/Cordey_village_by_a_stream.jpg");
+}
+
+#proj-6 > .top {
+    background-image: url("./assets/projects/Giacomo_van_Lint_-_View_of_the_Colosseum\,_Rome.jpg");
+}
