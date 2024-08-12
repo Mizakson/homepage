@@ -80,3 +80,9 @@ header {
     font-size: 1.5rem;
     margin-left: 7.5%;
 }
+
+.projects-display {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(100px, 250px));
+    grid-template-columns: repeat(3, minmax(100px, 250px));
+}
