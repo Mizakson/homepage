@@ -157,3 +157,58 @@ section {
     color: gray;
     padding-left: 7.5%;
 }
+
+footer {
+    min-height: 600px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 2.5%;
+}
+
+.contact {
+    text-align: left;
+    margin-left: 7.5%;
+    width: 550px;
+    padding-top: 2.5%;
+}
+
+.contact > .socials {
+    margin: auto;
+    gap: 5%;
+}
+
+.socials > img {
+    margin-top: 7.5%;
+}
+
+#contact-title {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.contact-me > p, .phone > p, .email > p {
+    font-size: 1.25rem;
+}
+
+.phone, .email {
+    display: flex;
+    gap: 7.5%;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.phone > img, .email > img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-img {
+    margin-top: 2.5%;
+    background-image: url("./assets/header-footer/Philippe_Rousseau_-_Best_Of_Friends_-_Bulldog_&_Bull_Terrier.jpg");
+    background-position: center;
+    border: 1px solid black;
+    height: 450px;
+    width: 650px;
+}
