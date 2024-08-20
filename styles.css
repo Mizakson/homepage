@@ -378,8 +378,8 @@ footer {
     
     .contact {
         text-align: left;
-        margin-left: 7.5%;
-        width: 550px;
+        margin-left: 5%;
+        width: auto;
         padding-top: 2.5%;
     }
     
@@ -409,8 +409,8 @@ footer {
     }
     
     .phone > img, .email > img {
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
     }
     
     .footer-img {
