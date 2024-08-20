@@ -221,37 +221,51 @@ footer {
     }
     
     .profile {
-        display: none;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         min-width: auto;
+        margin-top: -25%;
     }
     
     .profile-name {
         padding: 5%;
+        position: relative;
         color: white;
         text-align: center;
-        font-size: 3rem;
-        z-index: 1;
-        margin-right: 27%;
+        font-size: 2.5rem;
+        z-index: 2;
+        margin-left: 225%;
+        margin-top: -120%;
+        left: 80%;
+    }
+
+    .about > .title {
+        text-align: end;
     }
     
     .profile-image {
-        z-index: 0;
-        margin-top: -25%;
-        transform: scale(1.25);
-        margin-right: 25%;
+        z-index: 1;
+        /* margin-top: -32.5%; */
+        transform: scale(.9);
+        /* margin-right: 50%; */
+        padding-top: 15%;
+        float: left;
+        position: absolute;
+        left: 2.5%;
+        top: 10%;
     }
     
     .about {
-        display: none;
+        display: flex;
+        position: relative;
         flex-direction: column;
         gap: 5%;
         padding: 2.5%;
-        height: auto;
-        min-width: 250px;
-        max-width: 850px;
+        min-height: 400px;
+        /* max-width: 350px; */
+        max-width: 475px;
         background-color: white;
         overflow: hidden;
         box-shadow: 0.3em 0.3em 1em gray;
@@ -265,15 +279,17 @@ footer {
     
     .about-body-text {
         color: gray;
-        font-size: 1.25rem;
+        font-size: 1rem;
         text-wrap: balance;
+        text-align: right;
+        padding-left: 185px;
         padding-bottom: 1.5%;
     }
     
     .socials {
-        display: flex;
-        margin-left: 67.5%;
-        gap: 7.5%;
+        display: none;
+        /* margin-left: 67.5%;
+        gap: 7.5%; */
     }
     
     .social-icon {
