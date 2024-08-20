@@ -441,12 +441,11 @@ footer {
 
 @media (max-width: 599px) {
     header {
-        width: 100%;
-        min-height: 600px;
-        display: flex;
+        min-width: auto;
+        display: block;
         align-items: center;
-        justify-content: center;
-        background: linear-gradient(175deg, grey, grey 50%, white 50%, white);
+        justify-content: start;
+        background: linear-gradient(150deg, grey, grey 30%, white 10%, white);
     }
     
     .profile {
@@ -459,18 +458,21 @@ footer {
     
     .profile-name {
         padding: 5%;
+        margin-bottom: -5%;
         color: white;
         text-align: center;
         font-size: 3rem;
         z-index: 1;
-        margin-right: 27%;
+        margin: 0 -50%;
+        padding: 2.5%;
     }
     
     .profile-image {
         z-index: 0;
-        margin-top: -25%;
-        transform: scale(1.25);
-        margin-right: 25%;
+        transform: scale(.75);
+        margin: 0;
+        padding: 0;
+        margin-top: -30%;
     }
     
     .about {
@@ -482,26 +484,27 @@ footer {
         min-width: 250px;
         max-width: 850px;
         background-color: white;
-        overflow: hidden;
-        box-shadow: 0.3em 0.3em 1em gray;
+        box-shadow: none;
         margin-top: 6%;
     }
     
     .title {
         font-size: 2rem;
         padding-bottom: 2.5%;
+        text-align: center;
     }
     
     .about-body-text {
         color: gray;
         font-size: 1.25rem;
         text-wrap: balance;
-        padding-bottom: 1.5%;
+        padding-bottom: 2.5%;
     }
     
     .socials {
         display: flex;
-        margin-left: 67.5%;
+        margin-left: 30%;
+        padding: 0;
         gap: 7.5%;
     }
     
@@ -513,13 +516,20 @@ footer {
     }
     
     section {
-        padding-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-top: 10%;
+        padding-bottom: 25%;
+        margin-bottom: 75%;
     }
     
     #my-work {
         font-size: 2rem;
-        margin-left: 7.5%;
         padding-bottom: .5%;
+        margin-left: 0;
     }
     
     .project {
@@ -530,11 +540,14 @@ footer {
     }
     
     .projects-display {
-        padding-left: 7.5%;
         display: grid;
-        gap: 7.5%;
-        grid-template-columns: repeat(3, 412px);
+        align-items: center;
+        justify-content: center;
+        gap: 2.5%;
+        grid-template-columns: repeat(1, minmax(275px, 340px));
         padding-bottom: 5%;
+        margin: 0 auto;
+        margin-left: 0;
     }
     
     .top {
@@ -575,7 +588,7 @@ footer {
     }
     
     .project-icons {
-        margin-left: 30%;
+        margin-left: 10%;
         gap: 10px;
     }
     
@@ -591,28 +604,32 @@ footer {
     .project-description {
         font-size: .85rem;
         color: gray;
-        padding-left: 7.5%;
+        /* padding-left: 7.5%; */
+        padding: 3.5%;
+        text-wrap: wrap;
+        margin: 0;
     }
     
     footer {
-        min-height: 600px;
         background-color: gray;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         color: white;
         gap: 2.5%;
     }
     
     .contact {
-        text-align: left;
-        margin-left: 7.5%;
-        width: 550px;
+        text-align: center;
+        /* margin-left: 2.5%; */
+        min-width: auto;
         padding-top: 2.5%;
     }
     
     .contact > .socials {
         margin: auto;
-        gap: 5%;
+        gap: 2.5%;
     }
     
     .socials > img {
@@ -623,28 +640,39 @@ footer {
         font-size: 2rem;
         font-style: italic;
     }
+
+    .contact-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -5%;
+    }
     
     .contact-me > p, .phone > p, .email > p {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
     .phone, .email {
         display: flex;
         gap: 7.5%;
         align-items: center;
-        /* justify-content: center; */
+        justify-content: center;
     }
     
     .phone > img, .email > img {
-        height: 30px;
-        width: 30px;
+        display: none;
+    }
+
+    .contact > .socials {
+        margin-left: 35%;
+
     }
     
     .footer-img {
         margin-top: 2.5%;
         background-image: url("./assets/header-footer/Philippe_Rousseau_-_Best_Of_Friends_-_Bulldog_&_Bull_Terrier.jpg");
         background-position: center;
-        height: 450px;
-        width: 640px;
+        transform: scale(.55);
     }
 }
